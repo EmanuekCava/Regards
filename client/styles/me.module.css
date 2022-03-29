@@ -1,0 +1,184 @@
+
+.containerMe {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: linear-gradient(to bottom, #ddf, #fff);
+    display: flex;
+}
+
+/* REGARDS LIST */
+
+.containerRegardsList {
+    width: 20%;
+    background: #aaf;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.regardsAmount {
+    padding: 9px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textRegardsAmount {
+    font-size: 22px;
+    font-weight: 700;
+    color: #113;
+}
+.searchIcon {
+    cursor: pointer;
+}
+.regard {
+    text-align: center;
+    width: 100%;
+    min-height: 20%;
+    border: 3px solid #118;
+    padding: 12px;
+    cursor: pointer;
+    background: #89f;
+}
+.regard:hover {
+    background: #66f;
+}
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+.description {
+    font-size: 18px;
+}
+
+/* REGARDS VIEW */
+
+.containerRegardsView {
+    padding: auto 12px;
+    display: flex;
+    flex: 1;
+    overflow-y: scroll;
+}
+.regards {
+    width: 100%;
+}
+.containerTitleRegards {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleRegards {
+    line-height: 48px;
+    font-size: 34px;
+    font-weight: 700;
+}
+.crudOptions {
+    cursor: pointer;
+    position: absolute;
+    top: 78px;
+    right: 25px;
+}
+.containerOptions {
+    position: absolute;
+    background: #fff;
+    padding: 3px;
+    width: 180px;
+    top: 88px;
+    right: 60px;
+    border-radius: 4px;
+    z-index: 8;
+}
+.optionsList {
+    padding: 4px;
+}
+.option {
+    padding: 3px;
+    list-style: none;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+.option:hover {
+    background: #ddd;
+}
+
+/* IMAGES */
+
+.containerImages {
+    padding: 9px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imageContent {
+    margin: 12px;
+    cursor: pointer;
+}
+.imageContent:hover {
+    box-shadow: #000 0px 0px 3px;
+}
+.image {
+    object-fit: fill;
+}
+
+/* GET IMAGE */
+
+.getImageCointainer {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    top: 0;
+    left: 0;
+    opacity: 0.97;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 120;
+}
+.left {
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 50%;
+    transform: scale(2);
+}
+.right {
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 50%;
+    transform: scale(2);
+}
+.left:hover, .right:hover {
+    background: #ccc;
+}
+.left:active, .right:active {
+    background: #ddd;
+}
+.closeRegard {
+    color: #f00;
+    position: absolute;
+    top: 8px;
+    right: 28px;
+    cursor: pointer;
+}
+.moreImageList {
+    display: none;
+    margin-left: 12px;
+    color: #04f;
+}
+
+@media screen and (max-width: 695px) {
+    .containerRegardsList {
+        display: none;
+    }
+    .moreImageList {
+        display: inherit;
+    }
+}
+
+
+

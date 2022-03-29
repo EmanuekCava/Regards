@@ -1,0 +1,5 @@
+export const GET_REGARDS = 'GET_REGARDS';
+export const GET_REGARD = 'GET_REGARD';
+export const CREATE_REGARDS = 'CREATE_REGARDS';
+export const REMOVE_REGARDS = 'REMOVE_REGARDS';
+export const UPDATE_REGARDS = 'UPDATE_REGARDS';

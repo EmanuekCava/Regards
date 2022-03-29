@@ -1,0 +1,126 @@
+
+.containerHome {
+    width: 100vw;
+    height: 100vh;
+    padding: 35px;
+}
+.containerTitleHome {
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 18px;
+}
+.textTitleHome {
+    margin: auto;
+    font-size: 78px;
+    font-weight: 700;
+    color: rgb(255, 166, 0);
+    user-select: none;
+}
+.textSubtitleHome {
+    color: #0af;
+    font-size: 38px;
+    font-weight: bolder;
+    user-select: none;
+}
+.containerStart {
+    height: calc(50% - 35px);
+    margin-top: 35px;
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+}
+.buttonStart {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 35px;
+    background-color: #0f4;
+    width: 300px;
+}
+.buttonStart:hover {
+    background-color: #0d4;
+}
+.buttonStart:active {
+    background-color: #0f4;
+}
+.textButtonStart {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Header */
+
+.containerHeader {
+    width: 100%;
+    height: 70px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textHeader {
+    font-size: 42px;
+    color: rgb(255, 166, 0);
+    font-weight: 700;
+    cursor: default;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttonAdd {
+    outline: none;
+    border: none;
+    background-color: #0d0;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+.buttonAdd:hover {
+    background-color: #0f0;
+}
+.buttonAdd:active {
+    background-color: #0d0;
+}
+.logoutButton {
+    outline: none;
+    border: none;
+    background-color: #a00;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.logoutButton:hover {
+    background-color: #d00;
+}
+.logoutButton:active {
+    background-color: #a00;
+}
+
+/****  404  ****/
+
+.containerError {
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+}
+.containError {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

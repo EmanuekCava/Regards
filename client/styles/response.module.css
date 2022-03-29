@@ -1,0 +1,49 @@
+
+/* LOADING */
+
+.containerLoading {
+    width: 100vh;
+    height: 100vh;
+    background: #fff;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.iconLoading {
+    color: #09f;
+    transform: scale(3.0);
+}
+
+/* DANGER */
+
+.containerDanger {
+    background: #f88;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containerSuccess {
+    background: #8f8;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textResponse {
+    font-size: 25px;
+    color: #fff;
+}
+.closeDanger {
+    cursor: pointer;
+    color: #f00;
+    margin-left: 14px;
+}
